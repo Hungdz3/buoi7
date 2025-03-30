@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    width: auto;
+    height: 50px;
+    background-color: rgb(25, 105, 210);
+    align-content: center;
+}
+
+.header h1 {
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.baivenha  {
+    background-color:rgb(25, 105, 210);
+    max-width: 700px;
+    width: 480px;
+    padding: 15px;
+    height: 200px;
+    margin: 10px 0px 10px 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.baivenha h1 {
+    color: white;
+    line-height: 30px;
+    font-size: 30px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.baivenha li {
+    list-style-type: none;
+    margin: 2px;
+}
+
+.baivenha li a {
+    display: block;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+
+
+.baivenha li a:hover {
+    opacity: 0.8;
+    background-color: white;
+    color: pink;
+    scale: 105%;
+}
+
+.quay-lai {
+    text-align: center;
+}
+
+.quay-lai a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    background-color: pink;
+    padding: 12px 12px;
+    border-radius: 10px;
+}
